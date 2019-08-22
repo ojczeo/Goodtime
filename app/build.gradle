@@ -26,7 +26,7 @@ android {
     productFlavors {
         google {
             dimension "cevafin"
-            buildConfigField "boolean", "F_DROID", "false"
+            buildConfigField "boolean", "F_DROID", "true"
         }
         fdroid {
             dimension "cevafin"
